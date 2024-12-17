@@ -10,9 +10,6 @@ const httpFetcher = async <T>(queryContext: QueryFunctionContext): Promise<T> =>
         const keys = queryContext.queryKey.join("/")
         console.log(keys)
         const result = await api.get(`${keys}`,{
-            headers:{
-                'Authorization': `Bearer ${accessToken}`
-            }
         })
         console.log(result)
         return result.data as T;

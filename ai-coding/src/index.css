@@ -3,13 +3,16 @@
 @import 'primereact/resources/themes/lara-light-blue/theme.css';
 
 :root {
+    --third: #D9D9D9;
+    --cohint: #FFC54E;
+    --cotext: #F8F8F2;
     --primary: #282A36;
     --secondary: #44475A;
     --cogreen: #00FF44;
+    --coblue: #8BE9FD;
     --copink: #ff79c6;
     --coyellow: #f1fa8c;
-    --third: #D9D9D9;
-    --cohint: #FFC54E;
+    --cowhite: #F8F8F2;
 }
 
 /*cascade select 오퍼플로 이슈로 높이 고정*/

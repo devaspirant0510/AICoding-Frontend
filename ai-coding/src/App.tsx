@@ -4,16 +4,14 @@ import viteLogo from '/vite.svg'
 import './index.css';
 import './App.css'
 import {Button} from "primereact/button";
+import {Navigate} from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-        <div className={'text-copink text-2xl '}>dd</div>
-        <div className={'text-4xl text-cogreen'}>hello</div>
-        <Button>a</Button>
-    </>
+    <Navigate to={"/home"}>
+    </Navigate>
   )
 }
 
